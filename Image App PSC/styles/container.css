@@ -1,0 +1,13 @@
+#container{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(auto);
+    gap:20px;
+    margin:5px;
+    margin-top: 25px;
+    
+}
+#container>div>img{
+    width:100%;
+    height:100%;
+}
